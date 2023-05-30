@@ -91,7 +91,7 @@ header li a {
 /* **************** IMAGE PRINCIPALE ************* */
 #imagePrincipale {
   padding-top: 60px;
-  background: url(media/presentattion2_\(1\).jpg) no-repeat fixed 50% 50%;
+  background: url(media/presentattion2.jpg) no-repeat fixed 50% 50%;
   background-position: top;
   width: 100%;
   height: 799px;
@@ -162,39 +162,39 @@ h3 {
 }
 
 /* **************** Compléments AlimentairesE ********************** */
-#tourisme {
+#produit_1 {
   height: 1400px;
   background-color: var(--secondary);
   padding: 1px 2%;
 }
 
-#tourisme h2 {
+#produit_1 h2 {
   padding-top: 60px;
 
 }
 
-#ocean {
+#Vitamines{
   background: url(media/vitamine1.jpg);
   border-radius: 1em;
 
 }
 
-#chateau {
+#Complement{
   background: url(media/Cadeaux3.jpg);
   border-radius: 1em;
 }
 
-#phare {
+#Soins{
   background: url(media/savon1.jpg);
   border-radius: 1em;
 }
 
-#vignoble {
-  background: url(media/Image\ principale3\ \(1\).jpg);
+#Boissons{
+  background: url(media/Image\ principale3.jpg);
   border-radius: 1em;
 }
 
-#tourisme li {
+#produit_1 li {
   margin: 65px 100px 0 100px;
   height: 226px;
   width: 55%;
@@ -203,7 +203,7 @@ h3 {
   box-shadow: 6px 6px 28px -1px var(--thirdy);
 }
 
-#tourisme p {
+#produit_1 p {
   height: 45px;
   width: 235px;
   background-color: rgb(175, 194, 11);
@@ -216,13 +216,13 @@ h3 {
   border-radius: .5em;
 }
 
-#tourisme #chateau,
-#tourisme #vignoble {
+#produit_1  #Complement,
+#produit_1 #Boissons {
   float: right;
 }
 
-#chateau p,
-#vignoble p {
+#Complement p,
+#Boissons p {
   float: left;
   background-color: rgb(175, 194, 11);
   margin-left: -180px;
@@ -293,6 +293,7 @@ button:hover {
   width: 50%;
   text-align: left;
   color: #FFFAE1;
+  
 }
 
 #icons {
